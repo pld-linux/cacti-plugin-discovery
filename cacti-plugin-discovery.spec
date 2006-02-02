@@ -19,12 +19,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		webcactipluginroot /usr/share/cacti/plugins/%{namesrc}
 
 %description
-Plugin for Cacti -  This plugin adds the ability to auto-discover
+Plugin for Cacti - This plugin adds the ability to auto-discover
 devices on a subnet that are not monitored by Cacti and and tells you
 if they are SNMP enabled.
 
 %description -l pl
-Wtyczka do Cacti - 
+Wtyczka do Cacti dodaj±ca mo¿liwo¶æ automatycznego wykrywania urz±dzeñ
+w podsieci jeszcze nie monitorowanych przez Cacti i informuj±ca, czy
+urz±dzenia maj± w³±czone SNMP.
 
 %prep
 %setup -q -n %{namesrc}
