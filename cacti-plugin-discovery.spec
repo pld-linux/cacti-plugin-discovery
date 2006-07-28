@@ -7,7 +7,7 @@ Version:	0.5
 Release:	1
 License:	GPL v2
 Group:		Applications/WWW
-Source0:	http://download.cactiusers.org/downloads/%{namesrc}.tar.gz
+Source0:	http://download.cactiusers.org/downloads/%{namesrc}-%{version}.tar.gz
 # Source0-md5:	f6c7a244346eb3924f72fa344a7d00e3
 URL:		http://www.cactiusers.org/
 #BuildRequires:	rpm-perlprov
