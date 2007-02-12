@@ -1,7 +1,7 @@
 %define		namesrc	discovery
 %include	/usr/lib/rpm/macros.perl
 Summary:	Plugin for Cacti - Discovery
-Summary(pl):	Wtyczka do Cacti - Discovery
+Summary(pl.UTF-8):   Wtyczka do Cacti - Discovery
 Name:		cacti-plugin-discovery
 Version:	0.6
 Release:	1
@@ -22,10 +22,10 @@ Plugin for Cacti - This plugin adds the ability to auto-discover
 devices on a subnet that are not monitored by Cacti and and tells you
 if they are SNMP enabled.
 
-%description -l pl
-Wtyczka do Cacti dodaj±ca mo¿liwo¶æ automatycznego wykrywania urz±dzeñ
-w podsieci jeszcze nie monitorowanych przez Cacti i informuj±ca, czy
-urz±dzenia maj± w³±czone SNMP.
+%description -l pl.UTF-8
+Wtyczka do Cacti dodajÄ…ca moÅ¼liwoÅ›Ä‡ automatycznego wykrywania urzÄ…dzeÅ„
+w podsieci jeszcze nie monitorowanych przez Cacti i informujÄ…ca, czy
+urzÄ…dzenia majÄ… wÅ‚Ä…czone SNMP.
 
 %prep
 %setup -q -n %{namesrc}
