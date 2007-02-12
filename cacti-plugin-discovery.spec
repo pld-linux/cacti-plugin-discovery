@@ -1,7 +1,7 @@
 %define		namesrc	discovery
 %include	/usr/lib/rpm/macros.perl
 Summary:	Plugin for Cacti - Discovery
-Summary(pl.UTF-8):   Wtyczka do Cacti - Discovery
+Summary(pl.UTF-8):	Wtyczka do Cacti - Discovery
 Name:		cacti-plugin-discovery
 Version:	0.6
 Release:	1
