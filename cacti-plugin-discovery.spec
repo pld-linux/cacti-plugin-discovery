@@ -3,12 +3,12 @@
 Summary:	Plugin for Cacti - Discovery
 Summary(pl.UTF-8):	Wtyczka do Cacti - Discovery
 Name:		cacti-plugin-discovery
-Version:	0.6
+Version:	0.8.2
 Release:	1
 License:	GPL v2
 Group:		Applications/WWW
-Source0:	http://cactiusers.net/downloads/plugins/%{namesrc}-%{version}.tar.gz
-# Source0-md5:	d18d4b8b3956a285a5337a7cc72d2e96
+Source0:	http://mirror.cactiusers.org/downloads/plugins/%{namesrc}-%{version}.zip
+# Source0-md5:	c20705108e1291df8401213cdb79f39b
 URL:		http://www.cactiusers.org/
 #BuildRequires:	rpm-perlprov
 Requires:	cacti
@@ -28,7 +28,7 @@ w podsieci jeszcze nie monitorowanych przez Cacti i informująca, czy
 urządzenia mają włączone SNMP.
 
 %prep
-%setup -q -n %{namesrc}
+%setup -q -c
 
 %install
 rm -rf $RPM_BUILD_ROOT
