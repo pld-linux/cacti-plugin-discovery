@@ -4,12 +4,12 @@
 Summary:	Plugin for Cacti - Discovery
 Summary(pl.UTF-8):	Wtyczka do Cacti - Discovery
 Name:		cacti-plugin-%{plugin}
-Version:	1.3
-Release:	6
+Version:	1.5
+Release:	1
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://docs.cacti.net/_media/plugin:%{plugin}-v%{version}-1.tgz
-# Source0-md5:	9e157b25abdf70c37243c4c29ca4c123
+# Source0-md5:	ed283c999d5c71a99f1e48d71d8f9913
 URL:		http://docs.cacti.net/plugin:discovery
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	cacti
