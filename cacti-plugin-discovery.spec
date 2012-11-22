@@ -13,7 +13,7 @@ Source0:	http://docs.cacti.net/_media/plugin:%{plugin}-v%{version}-1.tgz
 URL:		http://docs.cacti.net/plugin:discovery
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	cacti
-Requires:	cacti(pia) >= 2.8
+Requires:	cacti(pia) >= 3.1
 Requires:	php(core) >= %{php_min_version}
 Requires:	php(mysql)
 Requires:	php(pcre)
